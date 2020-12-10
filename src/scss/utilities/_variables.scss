@@ -1,0 +1,37 @@
+// COLOR PALETTE
+$primary-color: #1b2431;
+$secondary-color: #585BF2;
+$btn-hover: #6669f3;
+$text-light-bg: #505D6D;
+$text-dark-bg: #758190;
+$link-hover: #E1E6EB;
+$title-color: #19212C;
+$background: #ffffff;
+
+// BORDERS
+$b-radius: 0.4rem;
+
+
+// TEXT
+$base: 20px;
+$w-norm: 400;
+$w-bold: 700;
+$title: 'PLayfair Display', sans-serif;
+$text: 'Heebo', sans-serif;
+
+
+// BREAKPOINTS
+
+
+
+// MIXIN
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
